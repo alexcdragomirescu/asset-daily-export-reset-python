@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+            table {
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            The script was executed from the machine "{{hostname}}" located in 
+            the path-prefix "{{wd}}".</br></br> 
+            The timestamp at creation is: {{ts}} / {{hts}}.</br></br> 
+            
+            Execution started at: <b>{{hts}}</b>.</br> 
+            Execution ended at: <b>{{event_end_hts}}</b>.</br> 
+            Total time: <b>{{hours}}:{{minutes}}:{{seconds}}</b>.</br></br> 
+            
+        </p>
+        <table style="width:100%">
+            <tr>
+                <th rowspan="2">Region</th>
+                <th colspan="2">Exported Values</th> 
+            </tr>
+            <tr>
+                <th colspan="1">Pre-Reset (Total)</th> 
+                <th colspan="1">Post-Reset (Total)</th> 
+            </tr>
+            {% for i in val_count %}
+            <tr>
+                <td>{{i}}</td>
+                {% for j in val_count[i] %}
+                    <td>{{val_count[i][j]}}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </table>
+        <p>
+            Total number of properties pre-reset: <b>{{global_count['export']}}.</b></br>
+            Total number of properties post-reset: <b>{{global_count['reset']}}</b>.
+        </p>
+    </body>
+</html>

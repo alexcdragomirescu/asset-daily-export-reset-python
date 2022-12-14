@@ -1,0 +1,45 @@
+2021-01-03 03:51:41: DB Commander v9.1.0 Starting...
+2021-01-03 03:51:41: Using command file E:\daily_export_reset\export\l.txt
+2021-01-03 03:51:41: Connecting to 99_NEW_PROD_ASSET_91 as 'RSTDEXPORT'
+2021-01-03 03:51:42: ODBC Driver version: 12.1.0.2.0
+2021-01-03 03:51:43: DB Settings - TNS_ADMIN has been set to E:\app\client\product\12.1.0\client_1\network\admin
+2021-01-03 03:51:43: Using Database Settings...
+2021-01-03 03:51:43: Logged into 'PLNNRP04' as user 'RSTDEXPORT'
+2021-01-03 03:51:43: Read 24 project(s):
+2021-01-03 03:52:29: WARNING: The maximum disk usage parameter is not set - no clear up of unused prediction files will take place. Please set this parameter in the project settings dialog box.
+2021-01-03 03:52:30: Prediction Engine Initialization Warning (Prediction task error: Encountered a communications error while attempting to contact the task distribution coordinator (*System failed to determine system error information (generic-distributor-module)*)).
+2021-01-03 03:52:30: Able to process 4 concurrent predictions locally
+2021-01-03 03:52:30: Failed to convert prediction folder path to UNC format (Could not resolve domain and machine name for '\\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_L\Predictions' (OS error 5))!
+2021-01-03 03:52:30: Failed to convert height-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DTM' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 03:52:30: Failed to convert clutter-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DLU' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 03:52:30: Failed to convert vector-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\LINES' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 03:52:30: Failed to convert building-raster-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DHM' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 03:52:30: WARNING: Prediction distribution will be unavailable due to one or more critical folder paths not being in UNC format (see above)
+2021-01-03 03:52:30: Local processing of predictions favoured
+2021-01-03 03:52:30: Starting Project 19: REGION L 2G 3G
+2021-01-03 03:52:34: Found backdrops at 7 resolutions in folder 'C:\DATA\MAP_INDEXES\BELGIUM\BACKDROP'.
+2021-01-03 03:52:43: Creating new index file as file \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_L\User Vectors and Measurements\index.xml for 'User Vectors' as the data appears to be invalid.
+2021-01-03 03:52:43: New Index about to be created as existing had invalid data. backup of existing file in: \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_L\User Vectors and Measurements\index_invalid_data.xml
+2021-01-03 03:52:43: Error: Can not save change to the index.xml file due to the following reason: Insufficient disk space to save (null)..
+2021-01-03 03:52:43: Failed to create the new Index file \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_L\User Vectors and Measurements\index.xml
+2021-01-03 03:52:43: Error: Loading User Vectors index.xml file. No User Vectors will be loaded.
+2021-01-03 03:53:58: Refreshing connections
+2021-01-03 03:53:58: Refreshing connections complete
+2021-01-03 03:54:11: Ready
+2021-01-03 03:54:11: Reading Command File E:\daily_export_reset\export\l.txt
+2021-01-03 03:54:11: Running EXPORT_XML [1]
+2021-01-03 03:54:11: Export of Prediction System Info is set to: NO.
+2021-01-03 03:54:11: Export of Repeater Pathloss from Parent Cell is set to: NO.
+2021-01-03 03:54:11: Export of Inward Neighbours is set to: NO.
+2021-01-03 03:54:11: Setting Antenna Export Filter to: All
+2021-01-03 03:54:11: Using filter: DAILY_EXPORT.
+2021-01-03 03:54:11: Exporting to: E:\daily_export_reset\export\l.
+2021-01-03 03:54:11: Location unit set to: DEFINED.
+2021-01-03 03:54:11: Saved E:\daily_export_reset\export\l\PROPERTY-LIST001.xml (No data exported.  File does not contain data.)
+2021-01-03 03:54:11: Saved E:\daily_export_reset\export\l\INDEX001.xml
+2021-01-03 03:54:11: XML Export complete.
+2021-01-03 03:54:11: Completed EXPORT_XML [1] successfully
+2021-01-03 03:54:11: Closing Project ...
+2021-01-03 03:54:16: Closed Project 19: 'REGION L 2G 3G'
+2021-01-03 03:54:16: Logged out from 'PLNNRP04' as user 'RSTDEXPORT'
+2021-01-03 03:54:16: DB Commander v9.1.0 Terminating...

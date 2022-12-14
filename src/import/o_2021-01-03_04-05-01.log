@@ -1,0 +1,42 @@
+2021-01-03 04:05:01: DB Commander v9.1.0 Starting...
+2021-01-03 04:05:01: Using command file E:\daily_export_reset\import\o.txt
+2021-01-03 04:05:01: Connecting to 99_NEW_PROD_ASSET_91 as 'RSTDEXPORT'
+2021-01-03 04:05:02: ODBC Driver version: 12.1.0.2.0
+2021-01-03 04:05:04: DB Settings - TNS_ADMIN has been set to E:\app\client\product\12.1.0\client_1\network\admin
+2021-01-03 04:05:04: Using Database Settings...
+2021-01-03 04:05:04: Logged into 'PLNNRP04' as user 'RSTDEXPORT'
+2021-01-03 04:05:04: Read 24 project(s):
+2021-01-03 04:05:49: WARNING: The maximum disk usage parameter is not set - no clear up of unused prediction files will take place. Please set this parameter in the project settings dialog box.
+2021-01-03 04:05:54: Prediction Engine Initialization Warning (Prediction task error: Encountered a communications error while attempting to contact the task distribution coordinator (*System failed to determine system error information (generic-distributor-module)*)).
+2021-01-03 04:05:54: Able to process 4 concurrent predictions locally
+2021-01-03 04:05:54: Failed to convert prediction folder path to UNC format (Could not resolve domain and machine name for '\\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_O\Predictions' (OS error 5))!
+2021-01-03 04:05:54: Failed to convert height-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DTM' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 04:05:54: Failed to convert clutter-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DLU' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 04:05:54: Failed to convert vector-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\LINES' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 04:05:54: Failed to convert building-raster-data folder path to UNC format (Path 'C:\DATA\MAP_INDEXES\BELGIUM\DHM' is local, so cannot be expanded to a valid UNC path)!
+2021-01-03 04:05:54: WARNING: Prediction distribution will be unavailable due to one or more critical folder paths not being in UNC format (see above)
+2021-01-03 04:05:54: Local processing of predictions favoured
+2021-01-03 04:05:54: Starting Project 13: REGION O 2G 3G
+2021-01-03 04:05:59: Found backdrops at 7 resolutions in folder 'C:\DATA\MAP_INDEXES\BELGIUM\BACKDROP'.
+2021-01-03 04:06:09: Creating new index file as file \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_O\User Vectors and Measurements\index.xml for 'User Vectors' as the data appears to be invalid.
+2021-01-03 04:06:09: New Index about to be created as existing had invalid data. backup of existing file in: \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_O\User Vectors and Measurements\index_invalid_data.xml
+2021-01-03 04:06:09: Error: Can not save change to the index.xml file due to the following reason: Insufficient disk space to save (null)..
+2021-01-03 04:06:09: Failed to create the new Index file \\svm-cifs03-vl63a.mobilebelgium.be\netact_test\REGION_O\User Vectors and Measurements\index.xml
+2021-01-03 04:06:09: Error: Loading User Vectors index.xml file. No User Vectors will be loaded.
+2021-01-03 04:07:26: Refreshing connections
+2021-01-03 04:07:26: Refreshing connections complete
+2021-01-03 04:07:40: Ready
+2021-01-03 04:07:40: Reading Command File E:\daily_export_reset\import\o.txt
+2021-01-03 04:07:40: Running IMPORT_XML [1]
+2021-01-03 04:07:40: Reading XML file: E:\DAILY_EXPORT_RESET\IMPORT\O\PROPERTY-LIST001.XML
+2021-01-03 04:07:40: Unknown value specified for IMPORTERROR token, accepted values are: IGNORE STOP
+2021-01-03 04:07:40: Warning: IMPORTERROR token not specified, defaulting to IGNORE
+2021-01-03 04:07:40: Importing File [E:\DAILY_EXPORT_RESET\IMPORT\O\PROPERTY-LIST001.XML] in large file support mode
+2021-01-03 04:08:03: XML Import complete.
+2021-01-03 04:08:03: Completed IMPORT_XML [1] successfully
+2021-01-03 04:08:03: Running COMMIT_NETWORK [2]
+2021-01-03 04:08:17: Completed COMMIT_NETWORK [2] successfully
+2021-01-03 04:08:17: Closing Project ...
+2021-01-03 04:08:22: Closed Project 13: 'REGION O 2G 3G'
+2021-01-03 04:08:22: Logged out from 'PLNNRP04' as user 'RSTDEXPORT'
+2021-01-03 04:08:22: DB Commander v9.1.0 Terminating...
